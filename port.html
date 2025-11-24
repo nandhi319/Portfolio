@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nandi Vardhan Reddy Kothakapu | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#06b6d4',
+            secondary: '#3b82f6',
+            dark: '#0f172a',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #4c1d95, #0f172a);
+    }
+    .gradient-text {
+      background: linear-gradient(to right, #06b6d4, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hover-card {
+      transition: all 0.3s ease;
+    }
+    .hover-card:hover {
+      border-color: rgba(6, 182, 212, 0.4); 
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="text-white min-h-screen">
+  <!-- Header -->
+  <header class="container mx-auto px-4 sm:px-6 py-8">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-bold gradient-text">
+          Nandi Vardhan Reddy Kothakapu
+        </h1>
+        <p class="text-lg text-cyan-200 mt-2">Data Analyst @NUWARE</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="mailto:nandivardhan8919@gmail.com"
+          class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+          <i class="fas fa-envelope text-sm"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/nandi-vardhan-reddy-k-8256681b3/" target="_blank" rel="noopener"
+          class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+          <i class="fab fa-linkedin-in text-sm"></i> LinkedIn
+        </a>
+        <a href="https://github.com/nandivardhan" target="_blank" rel="noopener"
+          class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+          <i class="fab fa-github text-sm"></i> GitHub
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="mt-6 flex flex-wrap gap-5 text-slate-300 text-sm">
+      <div class="flex items-center gap-2">
+        <i class="fas fa-map-marker-alt text-cyan-400"></i> New York
+      </div>
+      <div class="flex items-center gap-2">
+        <i class="fas fa-phone text-cyan-400"></i> 551 263 6032
+      </div>
+      <div class="flex items-center gap-2">
+        <i class="fas fa-envelope text-cyan-400"></i> nandivardhan8919@gmail.com
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 sm:px-6 pb-16">
+    <!-- Summary -->
+    <section class="mb-16">
+      <h2 class="text-xl font-bold mb-4 text-cyan-300 flex items-center">
+        Summary
+        <i class="fas fa-chevron-right text-slate-500 ml-2"></i>
+      </h2>
+      <p class="text-slate-200 leading-relaxed">
+        Data Engineer with around 3 years’ experience and Data Science maverick with cutting-edge expertise in machine learning, problem solving, and transforming cardiac research and data engineering through innovative predictive models and cloud technologies. Looking for opportunities to be a Machine Learning Engineer and Data Scientist. Proven track record of developing high-accuracy AI solutions, from 95% cardiomyocyte classification to real-time data pipelines that drive actionable insights.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-16">
+      <h2 class="text-xl font-bold mb-6 text-cyan-300 flex items-center">
+        Education
+        <i class="fas fa-chevron-right text-slate-500 ml-2"></i>
+      </h2>
+      <div class="space-y-6">
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <div class="flex flex-col md:flex-row md:justify-between gap-3">
+            <div>
+              <h3 class="font-bold text-white">Masters in Data Science</h3>
+              <p class="text-cyan-300">New York Institute of Technology</p>
+              <p class="text-slate-400">Manhattan, NY</p>
+            </div>
+            <div class="text-right md:text-left">
+              <p class="text-slate-300">09/2023 – 05/2025</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <div class="flex flex-col md:flex-row md:justify-between gap-3">
+            <div>
+              <h3 class="font-bold text-white">Bachelor of Technology in Electrical Engineering</h3>
+              <p class="text-cyan-300">Indian Institute of Technology Dharwad</p>
+              <p class="text-slate-400">India</p>
+            </div>
+            <div class="text-right md:text-left">
+              <p class="text-slate-300">08/2017 – 08/2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="mb-16">
+      <h2 class="text-xl font-bold mb-6 text-cyan-300 flex items-center">
+        Professional Experience
+        <i class="fas fa-chevron-right text-slate-500 ml-2"></i>
+      </h2>
+      <div class="space-y-6">
+        <!-- Research Assistant -->
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <div class="flex flex-col md:flex-row md:justify-between gap-3 mb-3">
+            <div>
+              <h3 class="font-bold text-white">Research Assistant</h3>
+              <p class="text-cyan-300">NYIT</p>
+            </div>
+            <p class="text-slate-300">05/2024 – 05/2025</p>
+          </div>
+          <ul class="space-y-2 text-slate-200">
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Developed machine learning models (Random Forest, CNN, LSTM) to classify and predict cardiomyocyte health, differentiation, and drug toxicity with accuracies up to 95%.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Implemented synthetic data generation techniques to enhance model performance in limited-data scenarios, achieving 93% accuracy with CNN.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Designed predictive models for cardiomyocyte maturation using Gaussian Process and Random Forest, attaining 90% accuracy.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Applied deep learning for drug toxicity detection, leveraging Fourier Transform and LSTM models, achieving AUROC of 0.93.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Automated cardiomyocyte classification using image-based CNN models, reaching an F1-score of 0.96.</li>
+          </ul>
+        </div>
+
+        <!-- Data Engineer -->
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <div class="flex flex-col md:flex-row md:justify-between gap-3 mb-3">
+            <div>
+              <h3 class="font-bold text-white">Data Engineer</h3>
+              <p class="text-cyan-300">Mphasis PVT LTD, Hyderabad, India</p>
+            </div>
+            <p class="text-slate-300">06/2022 – 08/2023</p>
+          </div>
+          <ul class="space-y-2 text-slate-200">
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Developed and optimized data orchestration in Azure Data Factory, achieving a 30% reduction in manual data processing tasks.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Established and managed staging tables in Azure Data Lake Storage Gen2 using Azure Data Factory.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Applied data transformation techniques in Azure Databricks to enhance data quality.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Worked with Parquet and JSON formats to optimize data storage and retrieval.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Optimized Snowflake queries, reducing data load times by 15%.</li>
+          </ul>
+        </div>
+
+        <!-- Data Analytics Intern -->
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <div class="flex flex-col md:flex-row md:justify-between gap-3 mb-3">
+            <div>
+              <h3 class="font-bold text-white">Data Analytics Intern</h3>
+              <p class="text-cyan-300">Out Shade Digital Media, Hyderabad, India</p>
+            </div>
+            <p class="text-slate-300">08/2021 – 03/2022</p>
+          </div>
+          <ul class="space-y-2 text-slate-200">
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Collaborated with project teams to define KPIs for inventory management.</li>
+            <li class="flex gap-2"><i class="fas fa-chevron-right text-cyan-400 mt-0.5 text-xs"></i> Extracted data from ERP systems, databases, and repositories for analysis.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-16">
+      <h2 class="text-xl font-bold mb-6 text-cyan-300 flex items-center">
+        Projects
+        <i class="fas fa-chevron-right text-slate-500 ml-2"></i>
+      </h2>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <h3 class="font-bold text-white mb-2">Predictive Modeling with Integrated Data Pipeline</h3>
+          <a href="#" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 text-sm">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700 hover-card">
+          <h3 class="font-bold text-white mb-2">Phishing Detection with MLOps and FastAPI</h3>
+          <p class="text-slate-300 text-sm mb-3">Integrated MLflow for experiment tracking, deployed on AWS EC2 with S3 model storage.</p>
+          <a href="#" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 text-sm">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="text-xl font-bold mb-6 text-cyan-300 flex items-center">
+        Skills
+        <i class="fas fa-chevron-right text-slate-500 ml-2"></i>
+      </h2>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700">
+          <h3 class="font-bold text-cyan-300 mb-3">Courses</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Relational Databases</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">DBMS</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Big Data</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Data Visualization</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Deep Learning</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Python</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Statistics</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">MLOps</span>
+          </div>
+        </div>
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700">
+          <h3 class="font-bold text-cyan-300 mb-3">Libraries</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">TensorFlow</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">PyTorch</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">MLflow</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Redshift</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">BigQuery</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Terraform</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Glue</span>
+          </div>
+        </div>
+        <div class="bg-slate-800/50 backdrop-blur-sm rounded-xl p-5 border border-slate-700">
+          <h3 class="font-bold text-cyan-300 mb-3">Technologies</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">AWS</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Azure</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Google Cloud</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Databricks</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Snowflake</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">SQL</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Git</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Tableau</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Power BI</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Apache Spark</span>
+            <span class="bg-slate-700/50 px-2.5 py-1 rounded text-xs">Hadoop</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-6 text-center text-slate-500 text-sm">
+    <p>© 2025 Nandi Vardhan Reddy Kothakapu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
